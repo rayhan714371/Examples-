@@ -15,7 +15,7 @@ Q=[1 0 0;  %Penalize x1 error
    0 1 0;  %Penalize x2 error
    0 0 1]; %Penalize x3 error
 
-R=1;   %Penalize actuator effort
+R=0.9;   %Penalize actuator effort
 
 K=lqr(A,B,Q,R);
 

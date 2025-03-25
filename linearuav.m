@@ -49,7 +49,7 @@ attack_end = 30/dt;     % End at 30 seconds
 a_y = [15; 15; 5; 5];     % Increased attack magnitude
 
 % Threshold for residual detection - LOWERED for better detection
-threshold = 0.4; % Lowered from 0.8 to 0.4
+threshold = 0.5; % Lowered from 0.8 to 0.4
 
 % Storage variables
 Px = zeros(1, numSteps + 1);
